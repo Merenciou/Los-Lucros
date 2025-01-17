@@ -16,7 +16,7 @@ class _SignInScreenState extends State<SignInScreen> {
     var deviceSize = device.size;
 
     return Scaffold(
-      backgroundColor: const Color(0xFFFF6600),
+      backgroundColor: const Color(0xFFF26B0F),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
