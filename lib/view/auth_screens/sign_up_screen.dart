@@ -9,7 +9,7 @@ class SignUpScreen extends StatefulWidget {
 }
 
 class _SignUpScreenState extends State<SignUpScreen> {
-  final loginKey = GlobalKey<FormState>();
+  final signUpKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     var device = MediaQuery.of(context);
@@ -27,7 +27,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             ),
           ),
           Form(
-            key: loginKey,
+            key: signUpKey,
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 50),
               child: Column(
