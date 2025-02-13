@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^6.2.1
+  increment_decrement_form_field: ^1.0.0
 
 dev_dependencies:
   flutter_test:
